@@ -1,0 +1,56 @@
+.sign{
+    padding: 80px 0;
+    background: #060628;
+    &__content{
+        text-align: center;
+        p{
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 2px;
+            text-transform: uppercase; 
+            color: #FFFFFF;
+            margin-bottom: 15px;  
+        }
+        h2{
+            font-size: 36px;
+            line-height: 50px;
+            color: #FFFFFF;
+            margin-bottom: 25px;
+        }
+        form{
+            #text{
+                padding: 18px 0 18px 18px;
+                width: 350px;
+                border: 1px solid #2F303E;
+                background: #060628;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            #text::placeholder{
+                    color: #fff;
+                    padding: 18px 0 18px 18px;
+            }
+            #submit{
+                font-size: 12px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #1D1F2E;
+                background: #fff;
+                padding: 17px 25px;
+                margin-left: 10px;
+            }
+            #submit:hover{
+                background: #060628;
+                color: #fff;
+                border: 1px solid #fff;
+                transition: 0.3s;
+            }
+
+        }
+    }
+}

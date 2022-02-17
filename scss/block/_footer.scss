@@ -1,0 +1,112 @@
+.footer{
+    padding: 52px 0;
+    margin-top: 55px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        cursor: pointer;
+        flex: 0 0 258px;
+        p{
+            font-size: 14px;
+            line-height: 22px;
+            color: rgba(29, 31, 46, 0.7);
+            margin-bottom: 82px;
+        }
+        span{
+            color: rgba(29, 31, 46, 0.3);
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    &__bx{
+        max-width: 111px;
+        height: 24px;
+        margin-bottom: 22px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+    &__menu{
+        p{
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #1D1F2E;
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 22px;
+        }
+        ul{
+            li{
+                margin-bottom: 10px;
+                a{
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: rgba(29, 31, 46, 0.7);
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__follow{
+        p{
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #1D1F2E;
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 22px;
+        }
+        ul{
+            li{
+                margin-bottom: 10px;
+                a{
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: rgba(29, 31, 46, 0.7);
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__contact{
+        cursor: pointer;
+        p{
+            font-size: 14px;
+            line-height: 22px;
+            color: rgba(29, 31, 46, 0.7);
+            margin-bottom: 17px;
+        }
+        h2{
+            font-size: 23px;
+            line-height: 36px;
+            color: #1D1F2E;
+            margin-bottom: 55px;
+        }
+        span{
+            font-size: 14px;
+            line-height: 22px;
+            color: rgba(29, 31, 46, 0.3);
+            a{
+                text-decoration: underline;
+                color: rgba(29, 31, 46, 0.3);
+            }
+        }
+    }
+    .contact{
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #1D1F2E;
+        margin-bottom: 22px;
+    }
+}

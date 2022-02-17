@@ -1,0 +1,84 @@
+.header{
+    padding: 30px 0;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        flex: 0 0 20%;
+    }
+    &__menu{
+        flex: 0 0 80%;
+        align-items: center;
+        ul{
+        display: flex;
+        justify-content: space-between;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            a{
+                color: #1D1F2E;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+            a:hover{
+                text-decoration: underline;
+                transition: 0.4s;
+            }
+            img{
+                margin-right: 10px;
+            }
+        }
+    }
+    &__wrapper{
+        height: calc(100vh - 114px);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &__wrap{
+        margin-top: 250px;
+    }
+    &__body{
+        text-align: center;
+        span{
+            color: #FFFFFF;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 15px;
+            line-height: 18px;
+        }
+        h1{
+            font-size: 47px;
+            line-height: 60px;
+            color: #FFFFFF;
+            margin: 10px 0;
+        }
+        p{
+            color: #FFFFFF;
+            font-size: 17px;
+            line-height: 30px;
+            margin-bottom: 40px;
+        }
+        a{
+            font-weight: bold;
+            color: #1D1F2E;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 15px;
+            line-height: 18px;
+            padding: 12px 25px;
+            background: #fff;
+            box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+        }
+        a:hover{
+            background: #060628;
+            color: #fff;
+            transition: 0.4s;
+            border: 1px solid #fff;
+        }
+    }
+}
